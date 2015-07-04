@@ -1,0 +1,103 @@
+﻿@{
+    Layout = null;
+}
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="sidebar-search">
+                <div class="input-group custom-search-form">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+                <!-- /input-group -->
+            </li>
+            <li>
+                <a href="@Url.Content("~/Admin/ExperimentApply")"><i class="fa fa-table fa-fw"></i> 實驗設定</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-mobile fa-fw"></i> 感測器<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemAcc")"><i class="fa fa-mobile fa-fw"></i> 加速度感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemOri")"><i class="fa fa-mobile fa-fw"></i> 方向感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemMagn")"><i class="fa fa-mobile fa-fw"></i> 磁性感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemTemp")"><i class="fa fa-mobile fa-fw"></i> 溫度感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemPx")"><i class="fa fa-mobile fa-fw"></i> 距離感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemPres")"><i class="fa fa-mobile fa-fw"></i> 壓力感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemLi")"><i class="fa fa-mobile fa-fw"></i> 亮度感測器</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-mobile fa-fw"></i> 裝置<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemLi")"><i class="fa fa-mobile fa-fw"></i> 亮度感測器</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemGsm")"><i class="fa fa-mobile fa-fw"></i> 全球行動通訊系統</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemGps")"><i class="fa fa-mobile fa-fw"></i> 全球定位系統</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemPow")"><i class="fa fa-mobile fa-fw"></i> 電源資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemExtmedia")"><i class="fa fa-mobile fa-fw"></i> 媒體資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemScreen")"><i class="fa fa-mobile fa-fw"></i> 螢幕資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemWifi")"><i class="fa fa-mobile fa-fw"></i> 無線資訊</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-mobile fa-fw"></i> 行為資訊<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemBrowser")"><i class="fa fa-mobile fa-fw"></i> 網頁瀏覽資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemCall")"><i class="fa fa-mobile fa-fw"></i> 撥接計數</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemCalact")"><i class="fa fa-mobile fa-fw"></i> 撥接資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemSms")"><i class="fa fa-mobile fa-fw"></i> 簡訊資訊</a>
+
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemPkg")"><i class="fa fa-mobile fa-fw"></i> 應用程式資訊</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Admin/ItemLocale")"><i class="fa fa-mobile fa-fw"></i> 語言資訊</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+        </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+</div>
