@@ -49,6 +49,8 @@
         <AssociationConnector Association="NCCUModel.FK_Item_Sms_DeviceInfo" />
         <AssociationConnector Association="NCCUModel.FK_Item_Temp_DeviceInfo" />
         <AssociationConnector Association="NCCUModel.FK_Item_Wifi_DeviceInfo" />
+        <EntityTypeShape EntityType="NCCUModel.Item_Ringer" Width="1.5" PointX="7.25" PointY="59.375" />
+        <AssociationConnector Association="NCCUModel.FK_Item_Ringer_DeviceInfo" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
